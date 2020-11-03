@@ -94,6 +94,8 @@ body {
 
 .card .back {
   transform: rotateY(180deg);
+  background-color: rgb(34, 61, 63);
+  color: antiquewhite;
 }
 
 .flashcard-options {
