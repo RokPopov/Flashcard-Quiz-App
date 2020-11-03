@@ -94,6 +94,9 @@ body {
 
 .card .back {
   transform: rotateY(180deg);
+}
+
+.card.toggle {
   background-color: rgb(34, 61, 63);
   color: antiquewhite;
 }
