@@ -79,6 +79,9 @@ body {
 
 .card.toggle {
   --rotate-y: 180deg;
+  box-shadow: 0 0 5px 2px antiquewhite;
+  background-color: rgb(34, 61, 63);
+  color: antiquewhite;
 }
 
 .card .front,
@@ -94,11 +97,6 @@ body {
 
 .card .back {
   transform: rotateY(180deg);
-}
-
-.card.toggle {
-  background-color: rgb(34, 61, 63);
-  color: antiquewhite;
 }
 
 .flashcard-options {
